@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Nunu & Willump</title>
+    <link rel="icon" type="image/png" href="imagenes/icon.png">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos_contacto.css">
+    <meta name="author" content="Luis Sedano">
+</head>
+
+<body>
+    <header>
+        <h1>Nunu & Willump</h1>
+        <h2>Contacto</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Historia</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="aspectos.html">Aspectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section style="width: 100%;">
+            <article>
+                <h2>Formulario de Contacto</h2>
+                <form action="mailto:luiszoo@hotmail.es" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="tipo">Tipo de Mensaje:</label>
+                    <select id="tipo" name="tipo" required>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="8" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Nunu & Willump Fan Page. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

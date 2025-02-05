@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+td {
+    text-align: center;
+}
+
+td img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+aside ul li img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
